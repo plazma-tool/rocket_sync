@@ -1,0 +1,7 @@
+[package]
+name = "rocket_sync"
+version = "0.1.0"
+authors = ["etd <erethedaybreak@gmail.com>"]
+
+[dependencies]
+smallvec = "0.4.2"
