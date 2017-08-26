@@ -36,11 +36,23 @@ impl SyncDevice {
         let r: f64 = (self.time as f64 / 1000.0) * self.rps + 0.5;
         self.row = r as u32;
     }
+
+    pub fn get_track_value(&self, track_id: usize) -> Result<f64, SyncError> {
+        if self.tracks.len() > track_id {
+            return Ok(self.tracks[track_id].value_at(self.row));
+        } else {
+            return Err(SyncError::TrackDoesntExist);
+        }
+    }
 }
 
 pub struct SyncTrack {
     /// key frames, rows where values change
     pub keys: SmallVec<[TrackKey; 64]>,
+}
+
+pub enum SyncError {
+    TrackDoesntExist
 }
 
 pub struct TrackKey {
