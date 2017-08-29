@@ -2,6 +2,13 @@
 name = "rocket_sync"
 version = "0.1.0"
 authors = ["etd <erethedaybreak@gmail.com>"]
+license = "MIT"
+description = """
+A sync track library for the GNU Rocket Editor. See also rocket_client.
+"""
+keywords = [ "no_std", ]
+repository = "https://github.com/make-a-demo-tool-in-rust/rocket_sync"
+readme = "README.md"
 
 [dependencies]
 smallvec = "0.4.2"

@@ -1,7 +1,7 @@
 # GNU Rocket sync library
 
 Implementing track sync for the [GNU Rocket Editor][rocket] in Rust. This gives
-you the value of a sync track at a given time.
+you the interpolated value of a sync track at a given time.
 
 This is a `#![no_std]` crate.
 
