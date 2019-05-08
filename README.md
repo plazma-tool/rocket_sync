@@ -9,4 +9,4 @@ Note that the [rocket_client] lib can be used to connect to a running Rocket
 editor.
 
 [rocket]: https://github.com/emoon/rocket
-[rocket_client]: https://github.com/make-a-demo-tool-in-rust/rocket_client
+[rocket_client]: https://github.com/plazma-tool/rocket_client

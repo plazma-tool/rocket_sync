@@ -1,13 +1,14 @@
 [package]
 name = "rocket_sync"
-version = "0.1.0"
-authors = ["etd <erethedaybreak@gmail.com>"]
+version = "0.1.1"
+authors = ["Gambhiro <gambhiro.bhikkhu.85@gmail.com>"]
+edition = "2018"
 license = "MIT"
 description = """
 A sync track library for the GNU Rocket Editor. See also rocket_client.
 """
 keywords = [ "no_std", ]
-repository = "https://github.com/make-a-demo-tool-in-rust/rocket_sync"
+repository = "https://github.com/plazma-tool/rocket_sync"
 readme = "README.md"
 
 [dependencies]
